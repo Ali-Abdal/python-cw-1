@@ -1,17 +1,30 @@
-# Change the following print statement so that it uses the addition operator + and prints out 8
-print(3)
+# First part 
 
-# Write a print statement that uses the division operator / 
+print("Abdal")
 
-# Add a print statement that uses multiplication *
+print(5 + 3)
 
-# Create a variable called `length` and assign a value to it
+print(5 / 5)
 
-# Create a variable called    `width` and assign a value to it
+print(5 * 5)
 
-# Create a variable called `area` and assign to it the multiplication of `length` and `width`
+# Secound part
 
-# Print `area` in the following: "The result is " followed by the `area` variable
+length = 150
 
+width = 25
 
-# BONUS: Print the area in the following syntax: "If the length of a rectangle is 5, and width is 3 then the area is: 15". Keep in mind that you should replace the numbers with their respective variables. 
+area = length * width
+
+print(f"The result is {area} m²")
+
+# Bounus 
+
+rectangle_length = 5
+
+rectangle_width = 3
+
+rectangle_area = rectangle_length * rectangle_width
+
+print(f"if the length of the rectangle is {rectangle_length}, and width is {rectangle_width}, then the area is {rectangle_area}")
+    
